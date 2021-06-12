@@ -136,15 +136,14 @@ a:hover{
     margin: 0;
   }
     body{
-      background-attachment:fixed;
-      background-size: cover;
+      background-attachment: fixed;
         width: 100%;
     }
     .nav{
       position: relative;
       flex-direction: column;
         width: 100%;
-        font-size: 20px;
+        font-size: 10px;
     }
     .nav a{
       font-size: 10px;
@@ -156,20 +155,23 @@ a:hover{
       width: 100%;
     }
     .h h1{
-    text-shadow: -2.5px 2.5px crimson;
+    text-shadow: -1.75px 1.75px crimson;
     display: block;
     padding-bottom:0px ;
-    margin-left:33%;
-    font-size: 50px;
+    margin-left:25%;
+    font-size: 35px;
     
     }
 
     .s {
       padding-top: 0px;
-    padding-left: 80px;
-    padding-right: 80px;
-    margin-left:31.5%;
-    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left:27.5%;
+    font-size: 15px;
+     border-style:solid ;
+     background-color:crimson;
+
     }
  
   
