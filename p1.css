@@ -1,8 +1,8 @@
 body{
   background-image:url("ssss.jpg");
- background-attachment:relative;
+ background-attachment:scroll;
  background-repeat: no-repeat;
- max-width: 100%;
+
 
 
  
@@ -13,30 +13,35 @@ body{
   
 
 }
-ul {
-  text-align: center;
+
+
+
+
+
+.nav {
   display: flex;
   flex-direction: row;
-  list-style-type: none;
+  position: fixed;
+ width: 100%;
   margin: 0px;
   padding: 0px;
   overflow: hidden;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0); 
 }
 
-li {
-    display: block;
-    margin: 0px;
-   
-    width:calc(100% / 10) ;
-}
 
-li a {
+
+
+
+.nav a {
+ 
   display: block;
   color: rgb(255, 255, 255);
   text-align: center;
   padding-top:12px;
   padding-bottom:12px ;
+  padding-left: 5%;
+  padding-right: 5%;
   text-decoration: none;
   font-weight: bolder;
   font-size: 30px;
@@ -71,10 +76,9 @@ h1{
   font-size: 100px;
 }
 
-.h12{
-  height: 100%;
+.h{
+  padding-top: 25%;
   width: 100%;
-  object-fit: contain;
   opacity: 0;
   animation: animation 4s forwards;
   animation-delay: 0.5s;
@@ -126,9 +130,46 @@ a:hover{
 
 
 
-@media only screen and (max-width: 768px) {
-
-  [class*="col-"] {
-    width: 100%;
+@media screen and (max-width:800px)
+{
+  *{
+    margin: 0;
   }
+    body{
+      background-size: cover;
+        width: 100%;
+    }
+    .nav{
+      position: relative;
+      flex-direction: column;
+        width: 100%;
+        font-size: 20px;
+    }
+    .nav a{
+      font-size: 10px;
+    }
+
+    .h{
+      padding-top: 15%;
+      
+      width: 100%;
+    }
+    .h h1{
+    text-shadow: -2.5px 2.5px crimson;
+    display: block;
+    padding-bottom:0px ;
+    margin-left:33%;
+    font-size: 50px;
+    
+    }
+
+    .s {
+      padding-top: 0px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-left:31.5%;
+    font-size: 20px;
+    }
+ 
+  
 }
