@@ -1,0 +1,141 @@
+body{
+
+ background-image:url("ss.jpg")  ;
+ background-attachment:fixed;
+ background-repeat: no-repeat;
+ 
+ 
+}
+
+*{
+  margin: 0;
+  
+
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+ 
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0); 
+}
+
+.nav a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top:12px;
+  padding-bottom:12px ;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.nav a:hover {
+  color: rgba(255, 250, 250, 0.466);
+  background-color: rgba(85, 88, 86, 0.863);
+  
+}   
+.active{
+  
+  background-color: rgb(26, 228, 177);
+
+}
+
+/*----------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------*/
+
+h1{
+  text-shadow: 1.5px 1.5px rgb(255, 0, 0);
+ 
+  display: block;
+  padding-top: 5%;
+  padding-bottom: 3%;
+  margin-left:2% ;
+  color: rgb(255, 255, 255);
+  font-weight:bolder ;
+}
+p{ 
+
+  padding-bottom:4%;
+  display:block;
+  font-weight: bolder;
+  margin-left: 1%;
+  margin-right: 0;
+  font-size: 25px;
+  color: rgb(200, 255, 0);
+}
+
+.gallery {
+ 
+  position: relative;
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width:calc((100% - 50px) / 4);
+}
+
+
+
+div.gallery img {
+ 
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  background-color: black;
+  font-size: 20px;
+  color : white;
+  padding: 40px;
+  text-align: center;
+}
+strong{
+  color: crimson;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media   (max-width:767px) 
+{
+ 
+    body{
+      background-attachment: fixed;
+        width: 100%;
+    }
+    .nav{
+       position: relative;
+        width: 100%;
+        font-size: 10px;
+    }
+    .nav a{
+      
+      font-size: 10px;
+    }
+
+
+    p{
+      font-size: 15px;
+    }
+    p img{
+      width: 30px;
+      height:15px;
+    }
+    
+    .gallery {
+    
+      width: 100%;
+    }
+    
+ 
+  
+}
+
+    
