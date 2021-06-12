@@ -136,6 +136,7 @@ a:hover{
     margin: 0;
   }
     body{
+      background-attachment:fixed;
       background-size: cover;
         width: 100%;
     }
