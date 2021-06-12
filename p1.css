@@ -1,0 +1,172 @@
+body{
+  background-image:url("ssss.jpg");
+ 
+ background-repeat: no-repeat;
+
+
+
+ 
+}
+
+*{
+  margin: 0;
+  
+}
+
+
+
+
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0); 
+}
+
+
+
+
+
+.nav a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top:12px;
+  padding-bottom:12px ;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.nav a:hover {
+  color: rgba(255, 250, 250, 0.466);
+  background-color: rgba(85, 88, 86, 0.863);
+  
+}   
+.active{
+  
+  background-color: rgb(26, 228, 177);
+
+}
+
+
+
+
+
+
+
+h1{
+  text-shadow: -5px -5px crimson;
+  text-decoration: double;
+ display: inline;
+  font-family: Snell Roundhand, cursive;
+  font-style: italic;
+  color:darkgray;
+  padding-bottom:0px ;
+  margin-left:12%;
+  font-size: 100px;
+}
+
+.h{
+  display: inline-block;
+  margin-top: 25%;
+  width: 100%;
+  opacity: 0;
+  animation: animation 4s forwards;
+  animation-delay: 0.5s;
+
+}
+
+
+
+
+@keyframes animation {
+  from{
+      
+      opacity: 0;
+  }
+  to{
+  
+      opacity: 1;
+  }
+}
+
+
+
+
+
+
+
+
+ .s{
+  padding-top: 0px;
+  padding-left: 141px;
+  padding-right: 141px;
+  margin-left:12%;
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  font-size: 35px;
+  border-style:solid ;
+  background-color:crimson;  
+}
+
+
+a:hover{
+  background-color: rgb(169, 169, 169);
+  
+}
+
+
+
+@media   (max-width:767px) 
+{
+ 
+    body{
+      background-attachment: relative;
+   
+        width: 100%;
+    }
+    .nav{
+       position: relative;
+        width: 100%;
+        font-size: 10px;
+    }
+    .nav a{
+      
+      font-size: 10px;
+    }
+
+    .h{
+      padding-top: 40%;
+      
+      width: 100%;
+    }
+    .h h1{
+    text-shadow: -1.75px 1.75px crimson;
+    display: block;
+    padding-bottom:0px ;
+    margin-left:25%;
+    font-size: 35px;
+    
+    }
+
+    .s {
+      padding-top: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left:27.5%;
+    font-size: 15px;
+     border-style:solid ;
+     background-color:crimson;
+    }
+ 
+  
+}
