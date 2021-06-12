@@ -1,0 +1,149 @@
+body{
+ 
+ background-image:url("123.jpg")  ;
+ background-attachment:fixed;
+ background-repeat: no-repeat;
+
+ 
+ 
+}
+*{
+  margin: 0;
+
+
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0); 
+}
+
+.nav a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top:12px;
+  padding-bottom:12px ;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.nav a:hover {
+  color: rgba(255, 250, 250, 0.466);
+  background-color: rgba(85, 88, 86, 0.863);
+  
+}   
+.active{
+  
+  background-color: rgb(26, 228, 177);
+
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+h1{
+    font-size: 50px;
+    color:rgb(185, 111, 111);
+    margin-top:8% ;
+    margin-left:45% ;
+
+}
+table{
+  margin-top: 120px;
+  background: rgba(39, 55, 126, 0.432);
+  margin-left: 2.3%;
+  justify-content: center;
+  width: 95%;
+  
+  
+}
+
+
+
+th{
+  border-style:solid;
+  font-size: 50px;
+  font-weight: bolder;
+  color: rgb(4, 248, 248);
+ 
+}
+
+
+td{
+  color: white ;
+  text-align: center;
+ 
+  font-size: 30px;
+  font-weight: bold;
+  background-color: rgba(40, 51, 80, 0.274);
+}
+td .div2{
+  display: inline-block;
+  padding-left: 5%;
+}
+td .div1{
+  display: inline-block;
+  padding-right: 5%;
+
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------*/
+@media   (max-width:767px) 
+{
+  
+    body{
+      background-attachment: fixed;
+        width: 100%;
+    }
+    .nav{
+       position: relative;
+        width: 100%;
+        font-size: 10px;
+    }
+    .nav a{
+      
+      font-size: 10px;
+    }
+
+    
+    th{
+      border-style:solid;
+      padding: 3px;
+      
+      font-size: 20px;
+      font-weight: bolder;
+      color: rgb(4, 248, 248);
+     
+    }
+    
+    
+    td{
+      color: white ;
+      text-align: center;
+      
+      font-size: 15px;
+      font-weight: bold;
+      background-color: rgba(40, 51, 80, 0.274);
+    }
+ 
+
+  
+    
+ 
+  
+}
